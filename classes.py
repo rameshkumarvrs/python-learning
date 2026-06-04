@@ -42,4 +42,20 @@ class Student:
 stud1 = Student("ramesh")
 
 stud1.greet()
+
+# multiple student object creatins
+
+class Student:
+    def __init__(self, name):
+        self.name = name
+        
+    def greet(self):    
+        print("Hello", self.name)
+stud1 = Student("ramesh")
+s2 = Student("Alice")
+s3 = Student("Bob")
+
+stud1.greet()
+s2.greet()
+s3.greet()
         
