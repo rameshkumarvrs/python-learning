@@ -30,4 +30,16 @@ print(student1.age)
 
 print(student2.name)
 print(student2.age)
+
+# assigning attributes for a method
+
+class Student:
+    def __init__(self, name):
+        self.name = name
+        
+    def greet(self):    
+        print("Hello", self.name)
+stud1 = Student("ramesh")
+
+stud1.greet()
         
