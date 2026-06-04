@@ -17,3 +17,20 @@ from math import * # Not recomendable
 import math as m
 
 print(m.sqrt(25))
+
+
+import random
+
+print(random.randint(1,10))
+
+import random
+
+print(random.randint(1,10))
+
+from datetime import datetime
+
+print(datetime.now())
+
+import os
+
+print(os.getcwd())
