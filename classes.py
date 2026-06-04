@@ -58,4 +58,27 @@ s3 = Student("Bob")
 stud1.greet()
 s2.greet()
 s3.greet()
+
+# Bank account withdraw deposit functionality
+
+class BankAccount:
+    balance = 5000
+    def __init__(self,owner,balance):
+        self.owner = owner
+        self.balance = balance
+        
+    def deposit(self, amount):
+        self.balance += amount
+        
+    def withdraw(self,amount):
+        self.balance -= amount
+        
+    
+    
+account = BankAccount("john", 5000)    
+
+account.deposit(2000)
+account.withdraw(4000)
+
+print(account.balance)
         
