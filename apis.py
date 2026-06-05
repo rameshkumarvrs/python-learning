@@ -4,6 +4,7 @@ url = "https://jsonplaceholder.typicode.com/posts/1"
 
 response = requests.get(url)
 
-print(response.text)
+data = response.json()
 
-print("ramesh")
+print(data["title"])
+
