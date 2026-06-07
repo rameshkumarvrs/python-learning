@@ -1,10 +1,10 @@
 import pandas as pd
 
 
-age = [25,28,35,37,39,41,45]
+age = [25,28,35,37]
 
 
-result = pd.Series(age)
+series = pd.Series(age, index=["riya", "ramesh", "haran", "krishmi"])
 
 
-print(result)
+print(series)
