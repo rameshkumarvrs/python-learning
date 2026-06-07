@@ -2,13 +2,13 @@ import numpy as np
 
 ary = np.array([1,2,3,4])
 
-twod_ary = np.array([
+n1 = np.array([
 	[1,2,3],
 	[4,5,6]
 	])
 
 
-print(twod_ary)
+print(n1)
 
 #np zeros
 
@@ -32,3 +32,18 @@ n6 = np.full([2,5],75)
 
 
 print(n6)
+
+n7 = np.empty([1,3], dtype='int32')
+
+n7.fill(9)
+
+print(n7)
+
+n8 = np.array([1,2,3,4])
+
+print(n8[-1])
+
+n3[1,1,2] = 9
+
+
+print(n3) 
