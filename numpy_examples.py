@@ -92,3 +92,28 @@ print(n14)
 n16 = np.concatenate((n14,n15))
 
 print(n16)
+
+
+n17 = np.arange(10)
+
+print(n17)
+
+print((n17[n17 > 5]))
+
+n20 = np.arange(20)
+
+print(np.hsplit(n20,4))
+
+n25 = np.arange(11)
+
+
+n27 = np.random.rand(3,3)
+
+print(n27)
+
+
+
+n28 = np.random.randint(20,size=(4,2))
+
+
+print(n28)
