@@ -47,3 +47,48 @@ n3[1,1,2] = 9
 
 
 print(n3) 
+
+
+#shape and dimentions
+
+
+print(n3.ndim)
+
+print(n6.ndim)
+
+print(n3.shape)
+
+print(n3.size)
+
+n10 = np.array([1,5,3,9,8,7,5,6])
+
+print(np.sort(n10))
+
+
+n11 = np.array(
+   [
+
+    [1,5,4],
+    [9,8,5]
+   ]
+	)
+
+
+
+print(np.sort(n11))
+
+n12 = n10.reshape(4,2)
+
+print(n12)
+
+
+n14 = np.arange(4)
+
+n15 = np.arange(1,5)
+
+
+print(n14)
+
+n16 = np.concatenate((n14,n15))
+
+print(n16)
