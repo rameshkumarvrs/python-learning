@@ -28,3 +28,9 @@ std4 = pd.DataFrame(new_student, index=["apsulkaro"])
 df = pd.concat([df, std4])
 
 print(df)
+
+df1 = pd.read_csv("customers-100.csv")
+
+print(df1.head())
+
+
