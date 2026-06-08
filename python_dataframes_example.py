@@ -29,8 +29,15 @@ df = pd.concat([df, std4])
 
 print(df)
 
-df1 = pd.read_csv("customers-100.csv")
+df1 = pd.read_csv("customers-100.csv", index_col="Customer Id")
 
-print(df1.head())
+print(df1.loc["DD37Cf93aecA6Dc", ["First Name", "Last Name"]])
+
+#print(df1[["Email","First Name"]])
+
+
+#df2 = pd.read_json("airports.json")
+
+#print(df2)
 
 
