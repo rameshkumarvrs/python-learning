@@ -53,7 +53,7 @@ df2 = pd.read_json("airports.json")
 print(df1)
 
 
-result = df1[ df1['First Name'] == "Nina" ]
+result = df1[ (df1['Index'] >= 90) & (df1['Subscription Date'] > "2020-06-02") ]
 
 print(result)
 
