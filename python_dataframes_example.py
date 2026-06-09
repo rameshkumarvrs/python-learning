@@ -31,7 +31,7 @@ print(df)
 
 df1 = pd.read_csv("customers-100.csv", index_col="Customer Id")
 
-print(df1.loc["DD37Cf93aecA6Dc", ["First Name", "Last Name"]])
+#print(df1.loc["DD37Cf93aecA6Dc", ["First Name", "Last Name"]])
 
 #print(df1[["Email","First Name"]])
 
@@ -39,5 +39,22 @@ print(df1.loc["DD37Cf93aecA6Dc", ["First Name", "Last Name"]])
 #df2 = pd.read_json("airports.json")
 
 #print(df2)
+
+
+
+
+
+df1 = pd.read_csv("customers-100.csv", index_col="Customer Id")
+
+df2 = pd.read_json("airports.json")
+
+#print(df2)
+
+print(df1)
+
+
+result = df1[ df1['First Name'] == "Nina" ]
+
+print(result)
 
 
