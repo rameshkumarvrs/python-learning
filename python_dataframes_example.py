@@ -50,11 +50,17 @@ df2 = pd.read_json("airports.json")
 
 #print(df2)
 
-print(df1)
+#print(df1)
 
 
 result = df1[ (df1['Index'] >= 90) & (df1['Subscription Date'] > "2020-06-02") ]
 
-print(result)
+#print(result)
+
+
+
+
+
+print(df["CGPA"].min())
 
 
